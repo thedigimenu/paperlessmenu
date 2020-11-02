@@ -9,4 +9,7 @@ $toggleCollapse.click(function(){
     $nav.toggleClass('collapse');
 })
 
+//owl-carousel for vlog
+$('.owl-carousel').owlCarousel();
+
 });

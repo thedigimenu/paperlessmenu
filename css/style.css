@@ -73,6 +73,14 @@ button.btn{
 
 }
 
+span{
+    font-family: var(--Abel);
+}
+
+.container{
+    margin: 0 5vw;
+}
+
 /*-----x------Global classes-----x-----*/
 
 
@@ -111,12 +119,12 @@ button.btn{
 }
 
 .collapse{
-    height: 20rem;
+    height: 22rem;
 }
 
 .nav .nav-items{
     display: flex;
-    margin: 0;
+    margin: 1.1rem;
 }
 
 .nav .nav-items .nav-link{
@@ -185,9 +193,56 @@ main .site-title .btn{
     background: var(--peach);
 }
 
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
 /*------x-------Site title-------x-------*/
 
+/*----------Carousel-----------*/
+
+main .blog{
+    background-image: url(../img/abstract.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+
+main .blog .blog-post{
+    padding-top: 6rem;
+}
+
+main .blog-post .resto-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .resto-1 .resto-name{
+    padding: 2rem 0;
+}
+
+main .resto-1 .btn-resto{
+    padding: .7rem 2rem;
+    background: var(--peach);
+    margin: .5rem;
+}
+
+main .resto-1 span{
+    display: block;
+}
+
+/*----x------Carousel-----x------*/
+
 /*---x---Main Content---x---*/
+
 
 /*      Viewport less than or equal to 750px        */
 
