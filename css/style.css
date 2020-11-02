@@ -1,0 +1,100 @@
+
+@import url(../css/fonts.css);
+
+
+html, body{
+   
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+
+:root{
+    /* Theme colors */
+    --text-charcoal: #424b54;
+    --text-puff: #ebcfb2;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --text-pale: #c5baaf;
+
+    /*gradient color*/
+    --peach: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+    /* theme font family */
+    --Abel: 'Abel', cursive;
+    --Josefin:'Josefin', cursive;
+    --Montserrat:'Montserrat', cursive;
+    --OpenSans:'OpenSans', cursive;
+    --Roboto: 'Roboto', cursive;
+
+}
+
+
+/*-----------Global classes------------*/
+a{
+    text-decoration: none;
+    color: var(--text-charcoal);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*-----x------Global classes-----x-----*/
+
+
+/*-----------navbar------------*/
+
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 40vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Abel);
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--text-puff);
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Roboto);
+    font-size: 1.6rem;
+
+}
+
+  
+.nav .social{
+    padding: 1.4rem 0;
+}
+
+/*------x-------navbar----x--------*/
