@@ -171,7 +171,7 @@ span{
 /*----------Site title-----------*/
 
 main .site-title{
-    background: url(../img/img2.jpg);
+    background: url(../img/background.png);
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -204,7 +204,6 @@ main .site-title .btn:hover{
 /*----------Carousel-----------*/
 
 main .blog{
-    background-image: url(../img/abstract.png);
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
@@ -213,7 +212,7 @@ main .blog{
 }
 
 main .blog .blog-post{
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 main .blog-post .resto-1{
