@@ -238,9 +238,63 @@ main .resto-1 span{
     display: block;
 }
 
+section .container .owl-nav{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: var(--text-charcoal);
+    background: transparent;
+    font-size: 2rem;  
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: var(--text-pale);
+}
+
+.owl-theme .owl-nav [class*='owl-']{
+    outline: none;
+}
+
 /*----x------Carousel-----x------*/
 
 /*---x---Main Content---x---*/
+
+
+/*------Footer-------*/
+footer.footer{
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .container .about-us h2{
+    color: white;
+}
+
+footer.footer .container .about-us p{
+    color: white;
+    font-family: var(--OpenSans);
+}
+
+
+/*---x---Footer---x----*/
 
 
 /*      Viewport less than or equal to 750px        */
