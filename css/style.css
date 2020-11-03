@@ -178,7 +178,7 @@ span{
 /*----------Site title-----------*/
 
 main .site-title{
-    background: url(../img/background.png);
+    background: url(../img/smallbg.png);
     background-size: cover;
     height: 110vh;
     display: flex;
