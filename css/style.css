@@ -52,15 +52,23 @@ ul{
 h1{
     font-family: var(--Josefin);
     font-size: 2.5rem;
+    color: yellow;    
 }
 
 h2{
-    font-family: var(--Josefin);
+    font-family: var(--Roboto);
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
 }
 
 h3{
     font-family: var(--Abel);
     font-size: 1.4rem;
+}
+
+h4{
+    font-family: var(--Abel);
+    font-size: 2rem;
 }
 
 button.btn{
@@ -128,11 +136,10 @@ span{
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
+    padding: 1.2rem 1rem;
     font-size: 1.2rem;
     position: relative;
     font-family: var(--Abel);
-    font-size: 1.1rem;
 }
 
 .nav .nav-items .nav-link:hover{
@@ -144,19 +151,19 @@ span{
 }
 
 .nav .nav-brand a{
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding: 1rem 0;
     display: block;
     font-family: var(--Barlow);
-    font-size: rem;
 }
   
 .nav .social{
-    padding: 1.4rem 0;
+    padding: 1.2rem 0;
 }
 
-.nav .social{
-    padding: 0 .2rem;
+.nav .social i{
+    padding: -0.2rem .3rem;
+    font-size: 1.3rem;
 }
 
 .nav .social i:hover{
@@ -191,6 +198,7 @@ main .site-title h1, h3{
 main .site-title .btn{
     margin: 1.8rem;
     background: var(--peach);
+    outline: none;
 }
 
 main .site-title .btn:hover{
@@ -202,14 +210,6 @@ main .site-title .btn:hover{
 /*------x-------Site title-------x-------*/
 
 /*----------Carousel-----------*/
-
-main .blog{
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 100vh;
-    width: 100%;
-    background-size: 65%;
-}
 
 main .blog .blog-post{
     padding-top: 3rem;
@@ -232,6 +232,16 @@ main .resto-1 .btn-resto{
     padding: .7rem 2rem;
     background: var(--peach);
     margin: .5rem;
+}
+
+main .resto-1 .btn-resto:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: var(--text-charcoal);
+}
+
+main .resto-1 .btn-resto{
+    outline: none;
 }
 
 main .resto-1 span{
@@ -290,16 +300,18 @@ footer.footer .container .about-us h2{
 
 footer.footer .container .about-us p{
     color: white;
-    font-family: var(--OpenSans);
+    font-family: var(--Abel);
 }
 
 footer.footer .rights{
     justify-content: center;
-    font-family: var(--OpenSans);
+    font-family: var(--Abel);
+    letter-spacing: .1rem;
 }
 
 footer.footer .rights h4{
     color: white;
+    font-size: 0.8rem;
 }
 
 footer.footer .move-up{
@@ -352,9 +364,6 @@ footer.footer .move-up span:hover{
 /*      Viewport less than or equal to 520px        */
 
 @media only screen and (max-width: 520px){
-    main .blog{
-        height: 125vh;
-    }
 
     footer.footer .container > div{
         padding: 1rem .9rem !important;
